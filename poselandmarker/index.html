@@ -7,7 +7,17 @@
     <title>js-example</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main-without-worker.js"></script>
+    <div id="app">
+      <video
+        id="video"
+        autoplay
+        muted
+        playinline
+        height="300px"
+        width="530px"
+      ></video>
+      <button id="start">Start</button>
+    </div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
